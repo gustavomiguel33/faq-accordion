@@ -1,1 +1,24 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-fluid {
+  width: 700px;
+}
+.container-fluid .header .row .col-12 {
+  display: flex;
+}
+.container-fluid .header .row .col-12 h1 {
+  margin-left: 16px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */

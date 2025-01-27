@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-fluid {
+  width: 700px;
+
+  .header {
+    .row {
+      .col-12 {
+        display: flex;
+
+        h1 {
+          margin-left: 16px;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
