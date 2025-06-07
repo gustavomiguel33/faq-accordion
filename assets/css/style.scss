@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background: url('../image/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: 400px;
+  background-color: #FFF;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  .header {
+    img {
+      width: 22px;
+    }
+  }
+}
