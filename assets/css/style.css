@@ -18,9 +18,46 @@ body {
 .container {
   width: 400px;
   background-color: #FFF;
-  padding: 2rem;
   border-radius: 1rem;
+}
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 1rem;
 }
 .container .header img {
   width: 22px;
+}
+.container .header span {
+  margin-left: 0.7rem;
+  font-size: 1.2rem;
+}
+.container .main .accordion .accordion-item .accordion-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #CCC;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.container .main .accordion .accordion-item .accordion-buttons button {
+  padding: 0.2rem;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  background-color: #301534;
+  color: #FFF;
+}
+.container .main .accordion .accordion-item .accordion-content {
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.container .main .accordion .accordion-item .accordion-content p {
+  font-size: 0.756rem;
 }/*# sourceMappingURL=style.css.map */

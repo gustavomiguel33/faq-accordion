@@ -19,12 +19,68 @@ body {
 .container {
   width: 400px;
   background-color: #FFF;
-  padding: 2rem;
   border-radius: 1rem;
 
   .header {
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-bottom: 1rem;
+
     img {
       width: 22px;
+    }
+
+    span {
+      margin-left: .7rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  .main {
+    .accordion {
+      .accordion-item {
+
+        .accordion-buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          background-color: #CCC;
+          padding: .5rem;
+          border-radius: .5rem;
+
+          button  {
+            padding: .2rem;
+            width: 25px;
+            height: 25px; 
+            border-radius: 50%;
+            border: none;
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-size: 1.1rem;
+            background-color: #301534;
+            color: #FFF;
+            
+          }
+        }
+
+        .accordion-content {
+
+          overflow: hidden;
+
+          margin-top: 1rem;
+          p {
+            font-size: .756rem;
+          }
+        }
+      }
     }
   }
 }
