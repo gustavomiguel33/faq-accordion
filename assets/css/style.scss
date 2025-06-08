@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +16,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -21,65 +25,53 @@ body {
   background-color: #FFF;
   border-radius: 1rem;
 
-  .header {
+  padding: 1rem;
 
+  .header {
     display: flex;
     align-items: center;
-    justify-content: start;
-
     margin-bottom: 1rem;
 
     img {
-      width: 22px;
+      width: 20px;
+      margin-right: .5rem;
     }
 
     span {
-      margin-left: .7rem;
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
   }
 
-  .main {
-    .accordion {
-      .accordion-item {
+  .accordion {
+    .accordion-item {
+      position: relative;
+      margin: 1.2rem 0;
 
-        .accordion-buttons {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
+      .accordion-button {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        width: 25px;
+        height: 25px;
+        color: #FFF;
+        font-size: 1.1rem;
+        font-weight: 300;
 
-          background-color: #CCC;
-          padding: .5rem;
-          border-radius: .5rem;
+        position: absolute;
+        right: 0;
+        top: 0;
 
-          button  {
-            padding: .2rem;
-            width: 25px;
-            height: 25px; 
-            border-radius: 50%;
-            border: none;
+        background-color: #301534;
+        border-radius: 50%;
+        cursor: pointer;
 
+      }
 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            font-size: 1.1rem;
-            background-color: #301534;
-            color: #FFF;
-            
-          }
-        }
-
-        .accordion-content {
-
-          overflow: hidden;
-
-          margin-top: 1rem;
-          p {
-            font-size: .756rem;
-          }
-        }
+      .accordion-content {
+        margin-top: 1rem;
+        font-size: .786rem;
       }
     }
   }

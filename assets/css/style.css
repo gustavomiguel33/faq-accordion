@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,51 +14,49 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
   width: 400px;
   background-color: #FFF;
   border-radius: 1rem;
+  padding: 1rem;
 }
 .container .header {
   display: flex;
   align-items: center;
-  justify-content: start;
   margin-bottom: 1rem;
 }
 .container .header img {
-  width: 22px;
+  width: 20px;
+  margin-right: 0.5rem;
 }
 .container .header span {
-  margin-left: 0.7rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
-.container .main .accordion .accordion-item .accordion-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #CCC;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+.container .accordion .accordion-item {
+  position: relative;
+  margin: 1.2rem 0;
 }
-.container .main .accordion .accordion-item .accordion-buttons button {
-  padding: 0.2rem;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  border: none;
+.container .accordion .accordion-item .accordion-button {
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
-  background-color: #301534;
+  width: 25px;
+  height: 25px;
   color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 300;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #301534;
+  border-radius: 50%;
+  cursor: pointer;
 }
-.container .main .accordion .accordion-item .accordion-content {
-  overflow: hidden;
+.container .accordion .accordion-item .accordion-content {
   margin-top: 1rem;
-}
-.container .main .accordion .accordion-item .accordion-content p {
-  font-size: 0.756rem;
+  font-size: 0.786rem;
 }/*# sourceMappingURL=style.css.map */
