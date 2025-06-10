@@ -24,13 +24,16 @@ body {
   width: 400px;
   background-color: #FFF;
   border-radius: 1rem;
+  padding: 2rem;
 
-  padding: 1rem;
+  box-shadow: 0 0 20px #ffffff96;
 
   .header {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 1rem;
 
     img {
       width: 20px;
@@ -46,6 +49,7 @@ body {
     .accordion-item {
       position: relative;
       margin: 1.2rem 0;
+      border-bottom: 1px solid #CCC;
 
       .accordion-button {
         padding: 10px;
@@ -70,8 +74,11 @@ body {
       }
 
       .accordion-content {
-        margin-top: 1rem;
+        margin: 1rem 0;
         font-size: .786rem;
+        overflow: hidden;
+
+        transition: .5s ease;
       }
     }
   }

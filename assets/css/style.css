@@ -21,12 +21,15 @@ body {
   width: 400px;
   background-color: #FFF;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5882352941);
 }
 .container .header {
   display: flex;
   align-items: center;
   margin-bottom: 1rem;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 1rem;
 }
 .container .header img {
   width: 20px;
@@ -38,6 +41,7 @@ body {
 .container .accordion .accordion-item {
   position: relative;
   margin: 1.2rem 0;
+  border-bottom: 1px solid #CCC;
 }
 .container .accordion .accordion-item .accordion-button {
   padding: 10px;
@@ -57,6 +61,8 @@ body {
   cursor: pointer;
 }
 .container .accordion .accordion-item .accordion-content {
-  margin-top: 1rem;
+  margin: 1rem 0;
   font-size: 0.786rem;
+  overflow: hidden;
+  transition: 0.5s ease;
 }/*# sourceMappingURL=style.css.map */
