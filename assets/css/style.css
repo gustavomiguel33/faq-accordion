@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -36,22 +36,26 @@ body {
   margin-right: 0.5rem;
 }
 .container .header span {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 .container .accordion .accordion-item {
   position: relative;
   margin: 1.2rem 0;
   border-bottom: 1px solid #CCC;
 }
+.container .accordion .accordion-item .accordion-title {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
 .container .accordion .accordion-item .accordion-button {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 25px;
   height: 25px;
   color: #FFF;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   position: absolute;
   right: 0;
@@ -64,5 +68,10 @@ body {
   margin: 1rem 0;
   font-size: 0.786rem;
   overflow: hidden;
+  width: 90%;
   transition: 0.5s ease;
+}
+.container .accordion .accordion-item .accordion-content p {
+  font-weight: 300;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=style.css.map */
